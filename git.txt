@@ -1,0 +1,9 @@
+git config --global user.name userGIS
+git config --global user.email gis@gmail.com
+git init
+git remote add origin *ссылка на репозиторий*
+git add -A
+git commit -m "newThings"
+git branch session1
+git checkout session1
+git push --set-upstream origin session1 
